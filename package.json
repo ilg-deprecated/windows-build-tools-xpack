@@ -1,0 +1,38 @@
+{
+  "name": "@gnu-mcu-eclipse/windows-build-tools",
+  "version": "1.0.0",
+  "description": "An xPack that installs the binary files for GNU MCU Eclipse Windows Build Tools.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu-mcu-eclipse/windows-build-tools-xpack.git"
+  },
+  "keywords": [
+    "xpack",
+    "make",
+    "sh",
+    "build"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "http://liviusdotnet.wordpress.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnu-mcu-eclipse/windows-build-tools-xpack/issues"
+  },
+  "homepage": "https://github.com/gnu-mcu-eclipse/windows-build-tools-xpack",
+  "devDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">7.7.0"
+  },
+  "xpack": {
+  }
+}
