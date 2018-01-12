@@ -34,5 +34,37 @@
     "node": ">7.7.0"
   },
   "xpack": {
+    "binaries": {
+      "destination": "./.content",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/download/v2.10-20180103",
+      "skip": 3,
+      "platforms": {
+        "linux-x86": {
+          "skip": true
+        },
+        "linux-x64": {
+          "skip": true
+        },
+        "darwin-x64": {
+          "skip": true
+        },
+        "win32-x86": {
+          "sha256": "25b495b340d84b971736a5dfc2a639608c19b5d9d30d14e86e870c1ce461b855",
+          "fileName": "gnu-mcu-eclipse-build-tools-2.10-20180103-1919-win32.zip"
+        },
+        "win32-x64": {
+          "sha256": "da147a2cd378183af1d19ecb655637b5b1deedb691fac25657d9d0e2a102e1be",
+          "fileName": "gnu-mcu-eclipse-build-tools-2.10-20180103-1919-win64.zip"
+        }
+      }
+    },
+    "bin": {
+      "make": "./.content/bin/make",
+      "busybox": "./.content/bin/busybox",
+      "echo": "./.content/bin/echo",
+      "mkdir": "./.content/bin/mkdir",
+      "rm": "./.content/bin/rm",
+      "sh": "./.content/bin/sh"
+    }
   }
 }
