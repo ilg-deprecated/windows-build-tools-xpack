@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/windows-build-tools",
-  "version": "2.10.1",
+  "version": "2.10.1-2",
   "description": "An xPack that installs the binary files for GNU MCU Eclipse Windows Build Tools.",
   "main": "",
   "scripts": {
@@ -64,7 +64,10 @@
       "echo": "./.content/bin/echo.exe",
       "mkdir": "./.content/bin/mkdir.exe",
       "rm": "./.content/bin/rm.exe",
-      "sh.exe": { "path": "./.content/bin/sh.exe", "type": "copy" }
+      "sh.exe": {
+        "path": "./.content/bin/sh.exe",
+        "type": "copy"
+      }
     }
   }
 }
