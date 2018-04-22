@@ -59,12 +59,12 @@
       }
     },
     "bin": {
-      "make": "./.content/bin/make",
-      "busybox": "./.content/bin/busybox",
-      "echo": "./.content/bin/echo",
-      "mkdir": "./.content/bin/mkdir",
-      "rm": "./.content/bin/rm",
-      "sh": "./.content/bin/sh"
+      "make": "./.content/bin/make.exe",
+      "busybox": "./.content/bin/busybox.exe",
+      "echo": "./.content/bin/echo.exe",
+      "mkdir": "./.content/bin/mkdir.exe",
+      "rm": "./.content/bin/rm.exe",
+      "sh.exe": { "path": "./.content/bin/sh.exe", "type": "copy" }
     }
   }
 }
