@@ -17,7 +17,7 @@ This section is intended for developers who plan to use the Windows Build Tools.
 A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a 
 portable [Node.js](https://nodejs.org/) command line application.
 
-## Easy install
+### Easy install
 
 The module is available as [`@gnu-mcu-eclipse/windows-build-tools`](https://www.npmjs.com/package/gnu-mcu-eclipse/windows-build-tools) from the `npmjs.com` registry; with `xpm` available, installing the latest version of the package is quite easy:
 
@@ -39,6 +39,8 @@ $ xpm uninstall @gnu-mcu-eclipse/windows-build-tools --global
 
 ### Git repo
 
+The few xPack source files are available from GitHub:
+
 ```console
 $ git clone https://github.com/gnu-mcu-eclipse/windows-build-tools-xpack.git windows-build-tools-xpack.git
 ```
@@ -46,14 +48,6 @@ $ git clone https://github.com/gnu-mcu-eclipse/windows-build-tools-xpack.git win
 ### Windows Build Tools binaries
 
 The binaries are downloaded from the [gnu-mcu-eclipse/windows-build-tools.git](https://github.com/gnu-mcu-eclipse/windows-build-tools) project, the [releases](https://github.com/gnu-mcu-eclipse/windows-build-tools/releases) page.
-
-### Code standard compliance
-
-The module currently does not include any JavaScript code.
-
-### Code documentation metadata
-
-The module currently does not include any documentation metadata
 
 ## Maintainer info
 
@@ -70,3 +64,7 @@ The module currently does not include any documentation metadata
 ## License
 
 The original content is released under the [MIT License](https://opensource.org/licenses/MIT), with all rights reserved to [Liviu Ionescu](https://github.com/ilg-ul).
+
+The binary distributions include several open-source components; the
+corresponding licenses are available in the `licenses`
+folder.
