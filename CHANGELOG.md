@@ -2,6 +2,11 @@
 
 Changes in reverse chronological order.
 
+### v2.10.1-4 (2018-04-23)
+
+- package.json: don't copy sh.exe, revert to shims (no longer 
+needed since xpm 0.4.x)
+
 ### v2.10.1-3 (2018-04-22)
 
 - README update
