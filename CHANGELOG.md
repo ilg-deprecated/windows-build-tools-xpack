@@ -2,6 +2,11 @@
 
 Changes in reverse chronological order.
 
+### v2.11.1-1 (2018-04-28)
+
+- update URLs to new 2.11 release
+- remove sh.exe link
+
 ### v2.10.1-4 (2018-04-23)
 
 - package.json: don't copy sh.exe, revert to shims (no longer 
