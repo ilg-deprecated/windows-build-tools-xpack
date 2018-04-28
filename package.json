@@ -64,7 +64,7 @@
       "echo": "./.content/bin/echo.exe",
       "mkdir": "./.content/bin/mkdir.exe",
       "rm": "./.content/bin/rm.exe",
-      "sh.exe": "./.content/bin/sh.exe"
+      "sh": "./.content/bin/sh.exe"
     }
   }
 }
