@@ -47,7 +47,9 @@ To remove the installed xPack, the command is similar:
 $ xpm uninstall @gnu-mcu-eclipse/windows-build-tools --global
 ```
 
-(Note: not yet implemented)
+(Note: not yet implemented. As a temporary workaround, simply remove the 
+`xPacks/@gnu-mcu-eclipse/windows-build-tools` folder, or the versions subfolders.)
+
 
 ## Developer info
 
