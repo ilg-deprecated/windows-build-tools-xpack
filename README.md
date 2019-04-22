@@ -32,6 +32,7 @@ from the public `npmjs.com` repository; with `xpm` available, installing
 the latest version of the package is quite easy:
 
 ```console
+$ npm update --global xpm
 $ xpm install @gnu-mcu-eclipse/windows-build-tools --global
 ```
 
@@ -75,7 +76,7 @@ section of the `gnu-mcu-eclipse/windows-build-tools` GitHub project.
 and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `2.12.1-1` (without `v`)
+* commit all changes, use a message like `package.json: update urls for 2.12.1-1 release` (without `v`)
 * update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v2.12.1-1_
 * `npm version 2.12.1-1`
 * push all changes to GitHub
