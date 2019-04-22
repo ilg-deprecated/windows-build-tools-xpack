@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/windows-build-tools",
-  "version": "2.11.1-1",
+  "version": "2.12.1-1",
   "description": "An xPack that installs the binary files for GNU MCU Eclipse Windows Build Tools.",
   "main": "",
   "scripts": {
