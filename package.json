@@ -36,7 +36,7 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/download/v2.11-20180428",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/windows-build-tools/releases/download/v2.12-20190422",
       "skip": 3,
       "platforms": {
         "linux-x86": {
@@ -49,12 +49,12 @@
           "skip": true
         },
         "win32-x86": {
-          "sha256": "810aabd776724ba54195807f0421932dab0809c15741a2076b8b6b1275463fd3",
-          "fileName": "gnu-mcu-eclipse-build-tools-2.11-20180428-1604-win32.zip"
+          "sha256": "fb4c6a3a3a93f7ac5dbd88879b782b9b1c31c4b51273dc6c8c4299c23b3c4d98",
+          "fileName": "gnu-mcu-eclipse-windows-build-tools-2.12-20190422-1053-win32.zip"
         },
         "win32-x64": {
-          "sha256": "9995e4a15a4893ca4ccca1bccafcd9783cbac9a94ceedc59b3f11137d3e3b0f8",
-          "fileName": "gnu-mcu-eclipse-build-tools-2.11-20180428-1604-win64.zip"
+          "sha256": "a8fd184310ffb5bf91660fd09f5b230675ef121deb03722c49562edf4d03318f",
+          "fileName": "gnu-mcu-eclipse-windows-build-tools-2.12-20190422-1053-win64.zip"
         }
       }
     },

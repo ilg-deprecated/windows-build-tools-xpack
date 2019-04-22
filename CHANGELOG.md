@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v2.12.1-1 (2019-04-22)
+
+- update URLs to new 2.12 release
+
 ### v2.11.1-1 (2018-04-28)
 
 - update URLs to new 2.11 release
