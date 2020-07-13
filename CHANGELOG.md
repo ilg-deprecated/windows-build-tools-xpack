@@ -1,6 +1,6 @@
 ## Change log
 
-Changes in reverse chronological order.
+Changes/releases in reverse chronological order.
 
 ### v2.12.1-1 (2019-04-22)
 
