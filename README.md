@@ -76,9 +76,9 @@ section of the `gnu-mcu-eclipse/windows-build-tools` GitHub project.
 and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `package.json: update urls for 2.12.1-1 release` (without `v`)
-* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v2.12.1-1_
-* `npm version 2.12.1-1`
+* commit all changes, use a message like `package.json: update urls for 8.2.0-2.2 release` (without `v`)
+* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v8.2.0-2.2.1_
+* `npm version 8.2.0-2.2.1`
 * push all changes to GitHub
 * `npm publish`
 
